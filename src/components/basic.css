@@ -1,0 +1,44 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button-1 {
+  position: relative;
+  top: 25px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: orange;
+}
+
+.button-1 h1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.button-1 span {
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+.button-2 {
+  position: relative;
+  top: 60px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(69, 206, 172);
+}
